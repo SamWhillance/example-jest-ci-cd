@@ -10,6 +10,7 @@ A simple Express.js application demonstrating:
 ## Features
 
 - Express.js API with a `/api/date` endpoint that returns the current date
+- Express.js API with a `/api/wrong-date` endpoint that returns a past date
 - Simple static HTML page with JavaScript to fetch and display the current date
 - Jest tests with coverage reporting
 - GitHub Actions workflow for continuous integration

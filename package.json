@@ -1,0 +1,30 @@
+{
+  "name": "example-jest-ci-cd",
+  "version": "1.0.0",
+  "description": "Example of how to set up a test suite using jest and have GitHub run it when code is pushed",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamWhillance/example-jest-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SamWhillance/example-jest-ci-cd/issues"
+  },
+  "homepage": "https://github.com/SamWhillance/example-jest-ci-cd#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
